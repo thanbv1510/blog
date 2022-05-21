@@ -1,0 +1,47 @@
+baseURL = "https://thanbv1510.is-a.dev/"
+languageCode = "en-us"
+title = "cd ~/"
+theme="archie"
+copyright = "⚡ ThanBV"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+enableEmoji = true
+
+paginate=10 # articles per page
+
+googleAnalytics = 'G-G8CZ8NJNFE'
+
+[params]
+	mode="toggle"
+	useCDN=false
+	subtitle = "Hi, I'm [Than](https://github.com/thanbv1510)"
+	customcss = ["css/custom.css"]
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/thanbv1510"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/thanbv1510"
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about-me/"
+weight = 3
