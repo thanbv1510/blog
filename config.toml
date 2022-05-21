@@ -13,8 +13,6 @@ enableEmoji = true
 
 paginate=10 # articles per page
 
-googleAnalytics = 'G-G8CZ8NJNFE'
-
 [params]
 	mode="toggle"
 	useCDN=false
