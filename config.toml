@@ -18,6 +18,8 @@ paginate=10 # articles per page
 	useCDN=false
 	subtitle = "Hi, I'm [Than](https://github.com/thanbv1510)"
 	customcss = ["css/custom.css"]
+	favicon = "/img/favicon.ico"
+
 
 [[params.social]]
 name = "GitHub"
