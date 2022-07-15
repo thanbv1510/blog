@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "retron-2000";
+  src: URL("../fonts/retron-2000.otf") format("truetype");
+}
+
+@font-face {
+  font-family: 'aguda-bold';
+  src: URL('../fonts/aguda-bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'aguda-black';
+  src: URL('../fonts/aguda-black.otf') format('truetype');
+}
+
+header, .title, h2, h3, h4, h5, h6, .readmore {
+  font-family: "retron-2000", monospace;
+}
+
+html {
+  font-family: "aguda-black", monospace;
+}
+
+p {
+  font-family: "aguda-bold", monospace;
+}
+
+.description {
+  font-family: "aguda-bold", monospace;
+}
+
+
+::selection {
+  background: #68839B;
+  color: #fff;
+}
+
+a {
+  border-bottom: 1px solid #0C7A19;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tags a {
+  border-bottom: 1px solid #0C7A19;
+}
